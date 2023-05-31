@@ -26,7 +26,16 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-leaflet": "^4.2.1",
-    "typescript": "5.0.4"
+    "typescript": "5.0.4",
+    "@fullcalendar/core": "^6.1.8",
+    "@fullcalendar/daygrid": "^6.1.8",
+    "@fullcalendar/interaction": "^6.1.8",
+    "@fullcalendar/list": "^6.1.8",
+    "@fullcalendar/react": "^6.1.8",
+    "@fullcalendar/resource": "^6.1.8",
+    "@fullcalendar/resource-timeline": "^6.1.8",
+    "@fullcalendar/timegrid": "^6.1.8",
+    "dayjs": "^1.11.7"
   },
   "devDependencies": {
     "@types/leaflet": "^1.9.3"

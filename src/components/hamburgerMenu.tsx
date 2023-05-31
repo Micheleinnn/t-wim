@@ -21,8 +21,8 @@ const HamburgerMenu: React.FC = () => {
       {isMenuOpen && (
         <ul>
           <li>
-            <Link href="/uvod" onClick={handleLinkClick}>
-              <a>Úvod</a>
+            <Link href="/Domů" onClick={handleLinkClick}>
+              <a>Domů</a>
             </Link>
           </li>
           <li>
