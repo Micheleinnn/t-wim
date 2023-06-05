@@ -9,7 +9,7 @@ interface EventData {
     backgroundColor: string;
 }
 
-export interface ContextType {
+export interface ContextType {                              
     calendarEvents: EventData[];
     setCalendarEvents: Dispatch<SetStateAction<EventData[]>>
     title: string, setTitle: Dispatch<SetStateAction<string>>
@@ -32,7 +32,7 @@ export const EventFormProvider = ({
     children,
 }: {
     children: React.ReactNode;
-}) => {
+}) => { 
     const [calendarEvents, setCalendarEvents] = React.useState<EventData[]>([]);
     const [title, setTitle] = React.useState("")
     const [start, setStart] = React.useState("")
